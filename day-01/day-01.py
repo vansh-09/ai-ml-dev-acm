@@ -9,4 +9,4 @@ word_count = Counter(words)
 
 with open("results.txt", "w") as f:
     for word, count in word_count.items():
-        f.write(f"{word}: {count}\n")
+        f.write(f"{word}: {count}")
